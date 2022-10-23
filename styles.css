@@ -1,0 +1,177 @@
+/*resetar*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*colocando uma cor de fundo*/
+body {
+    background-color: rgb(66, 6, 66);
+    font-family: Silkscreen;
+}
+
+/*mudando a cor do header class .cabecalho*/
+.cabecalho {
+    background: white;
+    
+}
+
+.cabecalho_titulo_folio {
+    /*colocando espeçura mais fina*/
+    font-weight: 250;
+    color:  rgb(116, 6, 116);
+}
+
+.cabecalho_titulo {
+    color:  rgb(51, 2, 51);
+}
+
+.cabecalho_lista {
+    /*colocando os elementos ao lado do outro*/
+    /*colocando os elementos em uma única linha*/
+    display: flex;
+    /*tirando style ou seja tirando a bolia da lista*/
+    list-style-type: none;
+    
+   
+}
+
+.cabecalho_lista_item {
+     /*colocando espaçamento nos elementos*/
+     margin: 0 25px;
+    
+}
+
+
+.cabecalho_lista_item a {
+    color: black;
+    /*tirando sublinhado */
+    text-decoration: none;
+
+}
+
+/*colocando todos elemento do header colocando ao lado do outro*/
+.cabecalho {
+    display: flex;
+    /*colocando os elemento no canto direito e espaçamento entre os elementos*/
+    justify-content: space-between;
+    /*espaçamento interno 0 cima e baixo e direita e esquerda 20px*/
+     padding:0 25px ;
+    /*alinhando os lementos ao centro da linha*/
+    align-items: center;
+}
+
+
+/*colocando conteúdo section colocando um do lado do outro*/
+.container-principal {
+    display: flex;
+    /*alinhando os elemento ao centro*/
+    justify-content: center;
+    /*espaçamento entre cabeçalho header e section*/
+    padding-top: 20px;
+
+
+}
+
+/*formatando a imagem deixando com tamanho ideal*/
+.container-principal-imagem {
+/*largura da imagem*/
+    width: 30%;
+
+}
+/*aumentando tamanho da fonte do título*/
+.container-principal-titulo {
+    font-size: 55px;
+    color: rgb(102, 100, 112);
+
+}
+.container-principal-texto {
+    font-size: 25px;
+    color: #e0dfe0;
+  
+}
+
+/*Colocando os elemento um do lado do outro*/
+.container-secundario {
+    display: flex;
+    padding-top: 35px;
+    /*deixando os lementos ao centro*/
+   
+    
+}
+
+/*configurando a largura da imagem*/
+.container-secundario-imagem {
+    width: 30%;
+}
+.container-secundario {
+    color:#e0dfe0;
+    justify-content: center;
+
+ 
+}
+
+.container-secundario-textos {
+    /*40vw significa view port 40 % da tela*/
+    width: 40vw;
+    font-size: 25px;
+   
+}
+
+/*tirando as bolinhas da lista*/
+.container-secundario-lista {
+    display: flex;
+    /*tirando o estilo da lista ou seja as bolinhas*/
+    list-style-type: none;
+    /*espaçamento entre os elementos*/
+    justify-content: space-around; 
+    
+}
+
+.container-secundario-item {
+background-color: blueviolet;
+/*espaçamento interno*/
+padding: 10px;
+border-radius: 15px;
+margin-top: 20px;
+}
+
+
+/*section protifolio*/
+.container-portfolio {
+    background-color: white;
+    color: rgb(51, 2, 51);
+    padding-bottom: 25px;
+}
+
+
+
+.container-projeto-titulo {
+    font-size: 40px;
+    
+}
+
+.container-projeto-link a {
+   
+    color: rgb(51, 2, 51);
+}
+
+.container-projeto-link a:hover {
+    margin: 10px;
+    color: blueviolet;
+}
+
+.container-projeto-link {
+   padding: 5px;
+}
+
+.rodape { 
+    background-color: blueviolet;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
